@@ -1,0 +1,28 @@
+/* Emberwick — page chrome around the canvas. The game itself draws
+   everything it needs on the canvas, so the page stays plain. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0a1018;
+  color: #e8eef4;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main { text-align: center; padding: 12px; }
+canvas {
+  display: block;
+  width: 960px;
+  max-width: 96vw;
+  height: auto;
+  border: 1px solid #2c3a4a;
+  border-radius: 8px;
+  background: #182230;
+}
+#help {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #9fb0c0;
+}
